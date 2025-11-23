@@ -13,7 +13,9 @@ This project is a **Social Media Automation Agent** built with **LangGraph** and
 - **Python 3.11**
 - **Docker**
 
-fastapi_app.py
+## fastapi_app.py
+
+```python
 from fastapi import FastAPI
 from pydantic import BaseModel
 from main import run_social_agent
